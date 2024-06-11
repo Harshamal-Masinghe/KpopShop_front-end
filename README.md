@@ -71,7 +71,6 @@ The challenges faced by KpopShop.lk highlighted the need for a digital transform
 - **Tailwind CSS**: For styling and design.
 - **GitHub**: For version control and collaboration.
 - **Visual Studio Code**: For front-end development.
-- **ClickUp**: For project management.
 
 ## 📋 Inventory Management: Functional and Non-Functional Requirements
 ### Functional Requirements
