@@ -1,65 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project
+# 🎶 KpopShop Nexus - Inventory Management System 🎶
 
+## Abstract
+Introducing **KpopShop Nexus**, an innovative e-commerce system designed to revolutionize the management of online K-pop merchandise stores. This platform offers a rich array of features tailored specifically for the efficient operation of online K-pop shops, ensuring seamless management of inventory, orders, customer interactions, and more.
 
-## Getting Started
+By leveraging a powerful stack with **Next.js (TypeScript and Tailwind CSS for styles)**, **Spring Boot**, and **MongoDB**, KpopShop Nexus delivers a user-friendly and robust platform for K-pop enthusiasts and entrepreneurs alike. This system enables owners to effortlessly manage product listings, track inventory levels, process orders efficiently, and engage with customers through personalized interactions. The integration of these technologies empowers sellers with a comprehensive solution that optimizes their e-commerce operations.
 
-First, run the development server:
-```bash
-npm run dev
-```
+## 🚀 My Contribution: Inventory Management
+As part of the development team, my primary responsibility was the **Inventory Management** module. This module addresses the critical need for efficient and real-time inventory tracking and management. Here are the key features and innovations I implemented:
 
-Commit all changes & Push changes
-```bash
-git add .
-git commit -m "Commit message describing your changes"
-# and
-git push origin <branch-name>
-```
+### Key Features
+1. **Real-Time Inventory Tracking**:
+    - Implemented real-time tracking to monitor stock levels accurately.
+    - Enabled automated alerts for products with low inventory (5 items or less), ensuring timely restocking.
+2. **Batch Product Addition**:
+    - Simplified the process of adding multiple products under the same product ID.
+    - Reduced manual entry errors and streamlined inventory updates.
+3. **Access Control**:
+    - Restricted visibility of low inventory products to administrators or managers.
+    - Ensured that critical inventory information is only accessible to authorized personnel.
+4. **Report Generation**:
+    - Developed tools for generating detailed reports on low inventory items.
+    - Provided comprehensive insights into stock levels and product performance for better decision-making.
 
-Folder Structure
-```bash
-src/
-|-- api/
-|   |-- mongo.ts
-|   |-- order.ts
-|   |-- products.ts
-|   |-- categories.ts
-|   |-- sizes.ts
-|   |-- giftBox.ts
-|-- app/
-|   |-- OrderManagement/
-|   |-- InventoryManagement/
-|   |-- financeManagement/
-|   |-- reviewManagement/
-|   |-- customerGiftbox/
-|   |-- globals.css
-|   |-- layout.tsx
-|   |-- page.tsx
-|-- components/
-|   |-- cart/
-|   |-- common/
-|   |-- InventoryManagement/
-|   |-- OrderManagement/
-|-- package.json
-|-- tailwind.config.ts
-|-- README.md
-```
+### Technologies Used
+- **Next.js (TypeScript, Tailwind CSS)**: For building a responsive and interactive front-end.
+- **Spring Boot**: For creating robust backend services.
+- **MongoDB**: For efficient and scalable data storage and retrieval.
 
+## 🙏 Acknowledgments
+We extend our heartfelt appreciation to everyone who supported and guided us throughout the project. Special thanks to our lecturer, Ms. Kaushika Kahatapitiya, for her invaluable guidance, and to our project evaluator for the constructive feedback.
 
+## 🏢 Company Background
+**KpopShop.lk** stands as a vibrant cornerstone of the K-pop community in Kiribathgoda, Sri Lanka, offering an extensive array of merchandise. Since its inception in 2021, KpopShop.lk has become a go-to destination for K-pop enthusiasts, providing a wide range of products including clothing, accessories, stationery, bags, and albums.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔍 Problem and Motivation
+### Problems Addressed
+1. **Lack of Customization Options**: Inability to personalize gift boxes.
+2. **Inefficient Inventory Management**: Challenges in accurate stock level monitoring.
+3. **Limited Communication Channels**: Communication breakdowns among staff.
+4. **Manual Order Processing**: Time-consuming and error-prone manual processes.
+5. **Limited-Service Availability**: Operational inefficiencies leading to longer wait times.
+6. **Absence of Customer Satisfaction Metrics**: Lack of mechanisms to gauge and improve customer satisfaction.
 
-## Learn More
+### Motivation
+The challenges faced by KpopShop.lk highlighted the need for a digital transformation to enhance operational efficiency and elevate customer satisfaction.
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Solution Overview
+### Custom Gift Box Builder
+- Allows users to craft unique and personalized gift boxes, save configurations, and add personalized messages.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Inventory Management
+- Real-time monitoring and automated alerts for low-stock items.
+- Simplified product addition and comprehensive report generation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Order Management
+- Strategic allocation of complaints and efficient resource utilization.
 
-## Deploy on Vercel
+### Cart Management
+- Collaborative shopping features allowing users to share and manage their carts with others.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### User Management
+- Personalized product recommendations and efficient address management.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Review Management
+- Inclusion of multiple photos in reviews for a detailed user experience.
+
+### Payment Management
+- Multiple payment options with robust security measures and comprehensive analytics.
+
+## 🛠️ Tools and Technologies
+- **Next.js**: For the front-end.
+- **Spring Boot**: For the back-end.
+- **MongoDB**: For the database.
+- **IntelliJ IDEA**: For Java development.
+- **GitHub**: For version control and collaboration.
+- **Visual Studio Code**: For front-end development.
+- **Postman**: For API testing.
+- **JUnit**: For unit testing.
+- **ClickUp**: For project management.
+
+## 📋 Inventory Management: Functional and Non-Functional Requirements
+### Functional Requirements
+- Real-time tracking and automated alerts for low-stock items.
+- Batch product addition and comprehensive report generation.
+
+### Non-Functional Requirements
+- User-friendly interface and intuitive navigation.
+- Scalability to accommodate future growth.
+- Robust security measures to protect sensitive data.
+- High performance under peak load conditions.
+
+---
+
+This README provides an overview of my contribution to the KpopShop Nexus project, focusing on the Inventory Management module. For more details, please refer to the full project documentation and code in this repository.
