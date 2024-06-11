@@ -1,9 +1,9 @@
-# 🎶 KpopShop Nexus - Inventory Management System 🎶
+# 🎶 KpopShop Nexus - Front-End 🎶
 
 ## Abstract
 Introducing **KpopShop Nexus**, an innovative e-commerce system designed to revolutionize the management of online K-pop merchandise stores. This platform offers a rich array of features tailored specifically for the efficient operation of online K-pop shops, ensuring seamless management of inventory, orders, customer interactions, and more.
 
-By leveraging a powerful stack with **Next.js (TypeScript and Tailwind CSS for styles)**, **Spring Boot**, and **MongoDB**, KpopShop Nexus delivers a user-friendly and robust platform for K-pop enthusiasts and entrepreneurs alike. This system enables owners to effortlessly manage product listings, track inventory levels, process orders efficiently, and engage with customers through personalized interactions. The integration of these technologies empowers sellers with a comprehensive solution that optimizes their e-commerce operations.
+By leveraging a powerful stack with **Next.js (TypeScript and Tailwind CSS for styles)**, KpopShop Nexus delivers a user-friendly and robust front-end platform for K-pop enthusiasts and entrepreneurs alike. This system enables owners to effortlessly manage product listings, track inventory levels, process orders efficiently, and engage with customers through personalized interactions. The integration of these technologies empowers sellers with a comprehensive solution that optimizes their e-commerce operations.
 
 ## 🚀 My Contribution: Inventory Management
 As part of the development team, my primary responsibility was the **Inventory Management** module. This module addresses the critical need for efficient and real-time inventory tracking and management. Here are the key features and innovations I implemented:
@@ -24,8 +24,6 @@ As part of the development team, my primary responsibility was the **Inventory M
 
 ### Technologies Used
 - **Next.js (TypeScript, Tailwind CSS)**: For building a responsive and interactive front-end.
-- **Spring Boot**: For creating robust backend services.
-- **MongoDB**: For efficient and scalable data storage and retrieval.
 
 ## 🙏 Acknowledgments
 We extend our heartfelt appreciation to everyone who supported and guided us throughout the project. Special thanks to our lecturer, Ms. Kaushika Kahatapitiya, for her invaluable guidance, and to our project evaluator for the constructive feedback.
@@ -69,14 +67,10 @@ The challenges faced by KpopShop.lk highlighted the need for a digital transform
 - Multiple payment options with robust security measures and comprehensive analytics.
 
 ## 🛠️ Tools and Technologies
-- **Next.js**: For the front-end.
-- **Spring Boot**: For the back-end.
-- **MongoDB**: For the database.
-- **IntelliJ IDEA**: For Java development.
+- **Next.js**: For the front-end development.
+- **Tailwind CSS**: For styling and design.
 - **GitHub**: For version control and collaboration.
 - **Visual Studio Code**: For front-end development.
-- **Postman**: For API testing.
-- **JUnit**: For unit testing.
 - **ClickUp**: For project management.
 
 ## 📋 Inventory Management: Functional and Non-Functional Requirements
@@ -92,4 +86,4 @@ The challenges faced by KpopShop.lk highlighted the need for a digital transform
 
 ---
 
-This README provides an overview of my contribution to the KpopShop Nexus project, focusing on the Inventory Management module. For more details, please refer to the full project documentation and code in this repository.
+This README provides an overview of my contribution to the KpopShop Nexus project, focusing on the Inventory Management module within the front-end development. For more details on the backend implementation, please refer to the corresponding backend repository.
